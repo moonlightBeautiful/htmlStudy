@@ -11,6 +11,7 @@
 <script>
     var obj = new Object();
     obj.name = "wowowo";
-    var resourceType = window.showModalDialog("b.html", obj, "dialogWidth=400px;dialogHeight=400px;dialogLeft=400px;dialogTop=200px;center=1;middle=yes;help=no;status=no;scroll=yes;resizable=yes;minimize:yes;maximize:yes;");
-    alert(resourceType);
+    var objb = window.showModalDialog("./b.html", obj,
+        "dialogWidth=400px;dialogHeight=400px;dialogLeft=400px;dialogTop=200px;center=1;middle=yes;help=no;status=no;scroll=yes;resizable=yes;minimize:yes;maximize:yes;");
+    alert("接收到的数据："+objb.name);
 </script>

@@ -11,7 +11,9 @@
 <script>
     var obj = window.dialogArguments;
     var name = obj.name;
-    alert(name);
-    window.returnValue = "wo,wo";
+    alert("传递过来的数据："+name);
+    var objb = new Object();
+    objb.name="wo";
+    window.returnValue = objb;
     window.close();
 </script>
