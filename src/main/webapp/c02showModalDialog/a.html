@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+谷歌浏览器不支持window.showModalDialog，关闭弹出的浏览器后才会执行后面的。
+</body>
+</html>
+<script>
+    var obj = new Object();
+    obj.name = "wowowo";
+    var resourceType = window.showModalDialog("b.html", obj, "dialogWidth=400px;dialogHeight=400px;dialogLeft=400px;dialogTop=200px;center=1;middle=yes;help=no;status=no;scroll=yes;resizable=yes;minimize:yes;maximize:yes;");
+    alert(resourceType);
+</script>
