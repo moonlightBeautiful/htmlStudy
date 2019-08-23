@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>源窗口通过第一个参数url后面增加？参数=值的方式传递参数</p>
+<p>子窗口通过window.location.search.substring(1)获取？源窗口传递过来的参数</p>
+<p>源窗口通设置一个对象</p>
+<p>子窗口通过window..opener.源窗口通设置一个对象来获取源窗口的参数</p>
+<p>子窗口通过window.opner.document.getElementById("").val()获取源窗口的元素的值</p>
+</body>
+</html>
+<script>
+    var obj = new Object();
+    obj.name = "wowowo";
+    var windowsSrc = window.open("./b.html?name="+"高旭" +"&age=" + 1, "",
+        "width=800,height=800");
+</script>

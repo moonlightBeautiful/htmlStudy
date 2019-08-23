@@ -5,7 +5,12 @@
     <title>Title</title>
 </head>
 <body>
-谷歌浏览器不支持window.showModalDialog，关闭弹出的浏览器后才会执行后面的。
+<p>谷歌浏览器不支持window.showModalDialog，关闭弹出的浏览器后才会执行后面的。</p>
+<p>源窗口向模态框传递参数， window.showModalDialog("要打开的网页", 要传递的参数,"要打开的网页的配置项"}</p>
+<p>模态框接收源窗口的参数， var obj = window.dialogArguments;</p>
+<p>模态框传递源窗口的参数， window.returnValue = 要传递的参数;</p>
+<p>源窗口接收模态框参数，var objb = window.showModalDialog(....）</p>
+
 </body>
 </html>
 <script>
