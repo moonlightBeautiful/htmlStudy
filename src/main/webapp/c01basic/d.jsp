@@ -1,9 +1,3 @@
-<%--
-  Created by gaoxu.
-  User: gaoxu
-  Date: 2019/6/20 0020
-  Time: 17:19
---%>
 <%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" language="java" %>
 <%@ page isELIgnored="false" %>
 <html>
