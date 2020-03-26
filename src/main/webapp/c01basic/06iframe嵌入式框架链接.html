@@ -5,22 +5,21 @@
     <title>iframe学习</title>
 </head>
 <body>
-<input type="button" name="btn1" onclick="callIframe1()" value="点击按钮控制iframe1页面"/>
+<input type="button" name="btn1" onclick="callIframe()" value="点击按钮控制iframe页面"/>
 <iframe id="iframe1" src="iframe1.html" width="300" height="200"></iframe>
 iframe是行内框架，不会自动换行。
 
 <script>
     //alert(undefined == null);  //undefined等于null。
-    function callIframe1() {
+    function callIframe() {
         var iframe1 = document.getElementById('iframe1');
         //demo1.html页面中的js控制了iframe1.html页面的字体颜色
         iframe1.contentWindow.iframe1Method1(); //调用iframe方法
         iframe1.contentWindow.document.body.style.color = 'red';     //改变iframe标签样式
-
     }
 
-    function parentIframe1Method() {
-        alert("子调用父");
+    function parentMethod1() {
+        alert("iframe的页面调用父方法");
     }
 </script>
 
