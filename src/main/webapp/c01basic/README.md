@@ -30,7 +30,7 @@ html学习
         tr行 td普通单元格 th列头单元格 colspan列合并  rowspan行合并 
         align对齐方式，可继承 bgcolor背景色 cellpadding单元格内容距离边线的距离  cellspacing单元格间边线的距离
     12表单form 向服务器提交数据
-        action 服务器地址 method 提交方式
+        action 服务器地址 method 提交方式 target跳转到哪里（默认页面跳转、iframe的name值时，action的页面显示到iframe中）
         文本表单 text文本框 password密码框 textarea文本域
         单选框name要相同  radio  checked默认选中
         复选框name要相同 checkbox
