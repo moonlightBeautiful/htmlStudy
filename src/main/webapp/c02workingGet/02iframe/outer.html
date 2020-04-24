@@ -6,10 +6,11 @@
 </head>
 <body>
 <input type="button" name="btn1" onclick="callIframe()" value="点击按钮控制iframe页面"/>
-<iframe id="iframe1" src="iframe1.html" width="300" height="200"></iframe>
+<iframe id="inner" src="inner.html" width="300" height="200"></iframe>
 iframe是行内框架，不会自动换行。
 
 <script>
+
     //alert(undefined == null);  //undefined等于null。
     function callIframe() {
         var iframe1 = document.getElementById('iframe1');
