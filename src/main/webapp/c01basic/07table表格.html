@@ -5,10 +5,11 @@
     <title>表格</title>
 </head>
 <body>
+<p>表格宽度和高度百分比设置：默认宽度设置有效，高度设置无效，自适应。每个单元格的宽度和高度是自适应的。</p>
 <table border="1" width="100%" height="100%">
     <tr>
         <th>基本表格，自适应高度和宽度。</th>
-        <th>width="100%" 是有用的</th>
+        <th> width="100%" 是有用的</th>
         <th> height="100%" 是没有用的</th>
         <th>4</th>
     </tr>
@@ -31,7 +32,35 @@
         <td>3-4</td>
     </tr>
 </table>
-<!--
+
+<p>表格宽度和高度固定值设置：有效。每个单元格的宽度和高度是自适应的。</p>
+<table border="1" width="300px" height="200px">
+    <tr>
+        <th>基本表格，自适应高度和宽度。</th>
+        <th> width="100%" 是有用的</th>
+        <th> height="100%" 是没有用的</th>
+        <th>4</th>
+    </tr>
+    <tr>
+        <td>1-1</td>
+        <td>1-2</td>
+        <td>1-3</td>
+        <td>1-4</td>
+    </tr>
+    <tr>
+        <td>2-1</td>
+        <td>2-2</td>
+        <td>2-3</td>
+        <td>1-4</td>
+    </tr>
+    <tr>
+        <td>3-1</td>
+        <td>3-2</td>
+        <td>3-3</td>
+        <td>3-4</td>
+    </tr>
+</table>
+
 <br>用colspan属性左右合并单元格<br>
 <table border="1">
     <tr>
@@ -84,9 +113,9 @@
         <td>3-3</td>
         <td>3-4</td>
     </tr>
-</table>-->
+</table>
 
-<!--<br>用align属性设置对齐方式<br>
+<br>用align属性设置表格内容对齐方式<br>
 <table border="1" width="400">
     <tr>
         <th>1</th>
@@ -162,6 +191,6 @@
         <td>3-3</td>
         <td>3-4</td>
     </tr>
-</table>-->
+</table>
 </body>
 </html>
